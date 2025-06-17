@@ -37,17 +37,13 @@ router.get('/:form/:pageNum', (req, res) => {
   if(req.params.form == "AP1" || req.params.form == "TR1" || req.params.form == "OC1"){
     form = req.session.data[req.params.form];
   }
-  console.log(form.filename);
-  console.log(form.serviceName);
   const pageNum = Number(req.params.pageNum) - 1;
   const page = form.pages[pageNum];
 
   res.locals.pageNum = pageNum;
   res.locals.page = page;
-  
   res.locals.formName = form.serviceName;
 
-  console.log(res.locals.formName);
   if (page == undefined){
     res.render('cya.html')
   }else{
