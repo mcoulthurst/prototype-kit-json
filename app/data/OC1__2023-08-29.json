@@ -1,0 +1,212 @@
+{
+  "filename": "OC1__2023-08-29_.pdf",
+  "formStructure": [
+    9,
+    16,
+    3
+  ],
+  "pages": [
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Local authority serving the property:",
+      "question_number": 1
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Title number if known:"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "freehold"
+        },
+        {
+          "text": "leasehold"
+        },
+        {
+          "text": "manor"
+        },
+        {
+          "text": "franchise"
+        },
+        {
+          "text": "caution against first registration"
+        },
+        {
+          "text": "rentcharge"
+        },
+        {
+          "text": "profit a prendre in gross"
+        }
+      ],
+      "question_text": "(Where the title number is unknown) this application relates to",
+      "hint_text": "Place 'X' in the appropriate box.",
+      "question_number": 2
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Flat/unit number:",
+      "question_number": 3
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Postal number or description:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of road:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of locality:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Town:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Postcode:"
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "To find out more about our fees visit\nwww.gov.uk/government/collections/fees-\nland-registry-quides",
+      "information": "To find out more about our fees visit www.gov.uk/government/collections/fees-land-registry-quides\n\nPlace 'X' in the appropriate box.\nThe fee will be charged to the account specified in panel 5.\n\nThis panel must always be completed.\nYou must include a name and address HM Land Registry will use these details to send the document(s) to you.\nA key number is only available to professional customers, such as solicitors.\nIf you are paying by direct debit, this will be the account charged.\n\nPlease note that until further notice all copies ordered using this form will be despatched in paper form. When email despatch becomes available, a direction will appear on GOV.UK and details will be given in practice guide 11: inspection and application for official copy. Until there is a direction, you do not need to complete this panel to obtain an official copy in paper format."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Application",
+      "hint_text": "Application and fee"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Official copy of register /plan or certificate of inspection of title plan"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "cheque made payable to 'Land Registry'"
+        },
+        {
+          "text": "direct debit, under an agreement with Land Registry"
+        }
+      ],
+      "question_text": "Fee payment method"
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "Total number of all copies or certificates requested in panel 7"
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "Fee paid (£)"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Key number (if applicable):",
+      "hint_text": "This application is sent to Land Registry by"
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Name:"
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address or UK DX box number:"
+    },
+    {
+      "answer_type": "email",
+      "options": [],
+      "question_text": "Email address:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Reference:"
+    },
+    {
+      "answer_type": "phone_number",
+      "options": [],
+      "question_text": "Phone no:"
+    },
+    {
+      "answer_type": "phone_number",
+      "options": [],
+      "question_text": "Fax no:"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Issue of official copies in paper format where an email address has been supplied",
+      "help_text": "If you have supplied an email address in panel 5, then, unless you complete the box below, any official copy will be issued electronically to that address, if there is a direction under section 100(4) of the Land Registration Act 2002 by the registrar covering such issuing."
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "I have supplied an email address but require the official copy(ies) to be issued in paper format instead of being issued electronically"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "official copy(ies) of the register of the above mentioned property"
+        },
+        {
+          "text": "official copy(ies) of the title plan or caution plan of the above mentioned property"
+        },
+        {
+          "text": "certificate(s) of inspection of title plan, in which case either"
+        },
+        {
+          "text": "an estate plan has been approved and the plot number is:"
+        },
+        {
+          "text": "no estate plan has been approved and a certificate is to be issued in respect of the land shown on the attached plan and copy"
+        }
+      ],
+      "question_text": "I apply for"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "I require an official copy back-dated prior to the receipt of the application"
+        },
+        {
+          "text": "I require an official copy on completion of that application"
+        }
+      ],
+      "question_text": "If an application for registration is pending against the title",
+      "question_number": 8
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Signature of applicant:",
+      "question_number": 9
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date:"
+    }
+  ]
+}

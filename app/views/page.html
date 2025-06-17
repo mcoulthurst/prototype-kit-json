@@ -1,0 +1,96 @@
+
+
+{% extends "layouts/main_rebrand.html" %}
+{% import "answer-types.njk" as answerType %}
+
+
+
+{% set pageName="Check your answers" %}
+
+{% block beforeContent %}
+{% include "includes/phase-banner.html" %}
+{% include "includes/language-switcher.html" %}
+{% endblock %}
+
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-!-padding-bottom-9">
+
+        {% if page.answer_type == "date" and page.answer_settings.input_type == "date_of_birth" %}
+          {{ answerType.date_of_birth(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_settings.input_type == "uk_address" %}
+          {{ answerType.address(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "date" %}
+          {{ answerType.other_date(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "time_period" %}
+          {{ answerType.time_period(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "name" %}
+          {{ answerType.name(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "number" %}
+          {{ answerType.number(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "email" %}
+          {{ answerType.email(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "text" %}
+          {{ answerType.text(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "text_area" %}
+          {{ answerType.text_area(page.question_text, page.hint_text) }}   
+
+        {% elif page.answer_type == "national_insurance_number" %}
+          {{ answerType.national_insurance_number(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "phone_number" %}
+          {{ answerType.phone_number(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "organisation_name" %}
+          {{ answerType.organisation_name(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "address" %}
+          {{ answerType.address(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "yes_no_question" %}
+          {{ answerType.yes_no(page.question_text, page.hint_text) }}
+
+        {% elif page.answer_type == "single_choice" %}
+          {{ answerType.single_choice(page.question_text, page.hint_text, page.options) }}
+
+        {% elif page.answer_type == "multiple_choice" %}
+          {{ answerType.multiple_choice(page.question_text, page.hint_text, page.options) }}
+
+        {% else %}
+          <h1 class="govuk-heading-l">
+            {{page.question_text}}
+          </h1>
+          <p class="govuk-body">{{page.hint_text}}</p>
+        {% endif %}
+
+
+
+      <form action="/form-handler" method="post" novalidate>
+        <input type="hidden" name="answers-checked" value="true">
+
+        {{ govukButton({
+          text: "Continue",
+          href:  (pageNum+2)
+          }) }}
+      </form>
+
+      
+    </div>
+    </div>
+
+
+  
+
+  </div>
+
+
+{% endblock %}

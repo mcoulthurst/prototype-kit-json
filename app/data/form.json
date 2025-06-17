@@ -1,0 +1,214 @@
+{
+  "filename": "page.jpg",
+  "formStructure": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "pages": [
+    {
+      "question_number": 1,
+      "question_text": "What is the title number?",
+      "hint_text": "This is the unique reference number for the property title",
+      "answer_type": "text",
+      "options": []
+    }
+,
+    {
+      "question_number": 2,
+      "question_text": "What type of legal document is this?",
+      "hint_text": "Select the document type that applies",
+      "answer_type": "single_choice",
+      "options": [
+        {"value": "transfer", "text": "Transfer"},
+        {"value": "lease", "text": "Lease"},
+        {"value": "charge", "text": "Charge"},
+        {"value": "deed", "text": "Deed"},
+        {"value": "other", "text": "Other"}
+      ]
+    }
+,
+    {
+      "question_number": 3,
+      "question_text": "What is the legal representative registration number?",
+      "hint_text": "Enter the registration number for the legal representative handling this matter",
+      "answer_type": "text",
+      "options": []
+    }
+,
+    {
+      "question_number": 4,
+      "question_text": "What type of contractual control applies?",
+      "hint_text": "Tick all boxes that apply",
+      "answer_type": "multiple_choice",
+      "options": [
+        {"value": "conditional_contract", "text": "Conditional Contract"},
+        {"value": "option_agreement", "text": "Option Agreement"},
+        {"value": "pre_emption_agreement", "text": "Pre-emption Agreement"},
+        {"value": "right_of_first_refusal", "text": "Right of First Refusal"},
+        {"value": "buy_back_agreement", "text": "Buy Back Agreement"}
+      ]
+    }
+,
+    {
+      "question_number": 5,
+      "question_text": "What is the territorial extent of the contract?",
+      "hint_text": "Select one option",
+      "answer_type": "single_choice",
+      "options": [
+        {"value": "whole_boundary", "text": "Whole of the boundary"},
+        {"value": "part_boundary", "text": "Part of the boundary"},
+        {"value": "specific_area", "text": "Specific area only"},
+        {"value": "other", "text": "Other"}
+      ]
+    }
+,
+    {
+      "question_number": 6,
+      "question_text": "Are there other territorial extent details to specify?",
+      "hint_text": "Tick one box",
+      "answer_type": "yes_no_question",
+      "options": [
+        {"value": "yes", "text": "Yes"},
+        {"value": "no", "text": "No"}
+      ]
+    }
+,
+    {
+      "question_number": 7,
+      "question_text": "How is the boundary defined?",
+      "hint_text": "Describe how the boundary or extent is shown",
+      "answer_type": "single_choice",
+      "options": [
+        {"value": "map_of_charge_extent", "text": "Map of charge extent"},
+        {"value": "plan_attached", "text": "Plan attached"},
+        {"value": "verbal_description", "text": "Verbal description"},
+        {"value": "existing_boundaries", "text": "Existing property boundaries"}
+      ]
+    }
+,
+    {
+      "question_number": 8,
+      "question_text": "What is the name of the grantee?",
+      "hint_text": "Enter the full name of the person or organisation receiving the rights",
+      "answer_type": "name",
+      "answer_settings": {
+        "input_type": "full_name"
+      },
+      "options": []
+    }
+,
+    {
+      "question_number": 9,
+      "question_text": "Which registration body applies to the grantee?",
+      "hint_text": "Select the body where the grantee is registered",
+      "answer_type": "single_choice",
+      "options": [
+        {"value": "companies_house", "text": "Companies House"},
+        {"value": "individual", "text": "An individual"},
+        {"value": "charity_commission", "text": "Charity Commission"},
+        {"value": "other", "text": "Other registration body"}
+      ]
+    }
+,
+    {
+      "question_number": 10,
+      "question_text": "What is the grantee's company number?",
+      "hint_text": "Enter the company registration number, or 'Not applicable' if an individual",
+      "answer_type": "text",
+      "options": []
+    }
+,
+    {
+      "question_number": 11,
+      "question_text": "What is the name of the grantor?",
+      "hint_text": "Enter the full name of the person or organisation granting the rights",
+      "answer_type": "name",
+      "answer_settings": {
+        "input_type": "full_name"
+      },
+      "options": []
+    }
+,
+    {
+      "question_number": 12,
+      "question_text": "Which registration body applies to the grantor?",
+      "hint_text": "Select the body where the grantor is registered",
+      "answer_type": "single_choice",
+      "options": [
+        {"value": "companies_house", "text": "Companies House"},
+        {"value": "individual", "text": "An individual"},
+        {"value": "charity_commission", "text": "Charity Commission"},
+        {"value": "other", "text": "Other registration body"}
+      ]
+    }
+,
+    {
+      "question_number": 13,
+      "question_text": "What is the grantor's company number?",
+      "hint_text": "Enter the company registration number, or 'Not applicable' if an individual",
+      "answer_type": "text",
+      "options": []
+    }
+,
+    {
+      "question_number": 14,
+      "question_text": "What is the date of the agreement?",
+      "hint_text": "Enter the date when the agreement was signed",
+      "answer_type": "date",
+      "answer_settings": {
+        "input_type": "other_date"
+      },
+      "options": []
+    }
+,
+    {
+      "question_number": 15,
+      "question_text": "What is the expiry date of the agreement?",
+      "hint_text": "Enter the date when the agreement expires",
+      "answer_type": "date",
+      "answer_settings": {
+        "input_type": "other_date"
+      },
+      "options": []
+    }
+,
+    {
+      "question_number": 16,
+      "question_text": "What conditions apply for contract extension?",
+      "hint_text": "Tick all boxes that apply",
+      "answer_type": "multiple_choice",
+      "options": [
+        {"value": "further_payments", "text": "Further payments"},
+        {"value": "both_parties_agreeing", "text": "Both parties agreeing"},
+        {"value": "planning_permission", "text": "Planning permission"},
+        {"value": "performance_conditions", "text": "Performance conditions"},
+        {"value": "regulatory_approval", "text": "Regulatory approval"},
+        {"value": "no_conditions", "text": "No conditions apply"}
+      ]
+    },
+
+
+    {
+      "question_number": 17,
+      "question_text": "Check your answers",
+      "information": "## Check your answers before submitting\n\nReview all the information you have provided. You can go back to change any answers if needed.\n\n**Contract Details**\n- Title number\n- Legal document type\n- Legal representative registration\n- Type of contractual control\n- Territorial extent\n- Boundary description\n\n**Grantee Details**\n- Name\n- Registration body\n- Company number\n\n**Grantor Details**\n- Name\n- Registration body  \n- Company number\n\n**Additional Information**\n- Date of agreement\n- Expiry date\n- Conditions for contract extension\n\nIf you are satisfied with your answers, click 'Submit application'.",
+      "answer_type": "information_page",
+      "options": []
+    }
+  ]
+
+
+}

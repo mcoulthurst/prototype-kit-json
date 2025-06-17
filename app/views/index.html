@@ -1,0 +1,29 @@
+{% extends "layouts/main_rebrand.html" %}
+
+{% set pageName="Home" %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <h1 class="govuk-heading-xl">
+      {{ serviceName }}
+    </h1>
+
+    <p class="govuk-body"><a href="/page/1">Example AI generated registration</a></p>
+    <p class="govuk-body">This form was generated using a Claude.ai. Text was extracted from a “check your answers” page and was passed with this prompt:</p>
+    <p class="govuk-caption-m">“I want a list of separate pages that follow the gov design system that ask the relevant questions to create this data... use the attached schema” (see Tim Paul's extract-form-questions-schema.json)</p>
+    <p class="govuk-body">The resulting form.json was then loaded into the prototype and the individual page data was passed in the routes.js to the page template where is was rendered using the nunjucks from Tim's form generator linked together.</p>
+  </div>
+</div>
+ <h3 class="govuk-heading-s">
+      Example HMLR forms
+    </h3>
+    <ul class="govuk-list govuk-list--no-bullet">
+      <li><a class="govuk-link govuk-link--no-visited-state" href="/AP1/1">AP1: HM Land Registry Application to change the register</a> </li>
+      <li><a class="govuk-link govuk-link--no-visited-state" href="/TR1/1">TR1: Transfer of whole of registered titles</a> </li>
+      <li><a class="govuk-link govuk-link--no-visited-state" href="/OC1/1">OC1: Application for offical copies of register plan or certificate</a> </li>
+
+    </ul>   
+{% endblock %}

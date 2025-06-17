@@ -1,0 +1,144 @@
+{
+  "filename": "OC1__2023-08-29_.pdf",
+  "formStructure": [
+    9,
+    16,
+    3
+  ],
+  "pages": [
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Local authority serving the property",
+      "question_number": 1
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Title number if known"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "freehold"
+        },
+        {
+          "text": "leasehold"
+        },
+        {
+          "text": "manor"
+        },
+        {
+          "text": "franchise"
+        },
+        {
+          "text": "caution against first registration"
+        },
+        {
+          "text": "rentcharge"
+        },
+        {
+          "text": "profit a prendre in gross"
+        }
+      ],
+      "question_text": "(Where the title number is unknown) this application relates to",
+      "hint_text": "Place 'X' in the appropriate box.",
+      "question_number": 2
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Details of the estate"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Total number of all copies or certificates requested",
+      "hint_text": "Standard fee is £11, electronic documents are £7"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "cheque made payable to 'Land Registry'"
+        },
+        {
+          "text": "direct debit, under an agreement with Land Registry"
+        }
+      ],
+      "question_text": "Fee payment method"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Key number (if applicable)",
+      "hint_text": "This application is sent to Land Registry by"
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Name"
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address or UK DX box number"
+    },
+    {
+      "answer_type": "email",
+      "options": [],
+      "question_text": "Email address"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Customer reference"
+    },
+    {
+      "answer_type": "phone_number",
+      "options": [],
+      "question_text": "Phone no"
+    },
+    {
+      "answer_type": "yes_no_question",
+      "options": [],
+      "question_text": "Do you require the official copyies to be in paper format?",
+      "help_text": "If you have supplied an email address, then, unless you choose below, any official copy will be issued electronically to that address, if there is a direction under section 100(4) of the Land Registration Act 2002 by the registrar covering such issuing."
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "official copy(ies) of the register of the above mentioned property"
+        },
+        {
+          "text": "official copy(ies) of the title plan or caution plan of the above mentioned property"
+        },
+        {
+          "text": "certificate(s) of inspection of title plan, in which case either"
+        },
+        {
+          "text": "an estate plan has been approved and the plot number is"
+        },
+        {
+          "text": "no estate plan has been approved and a certificate is to be issued in respect of the land shown on the attached plan and copy"
+        }
+      ],
+      "question_text": "I apply for"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "I require an official copy back-dated prior to the receipt of the application"
+        },
+        {
+          "text": "I require an official copy on completion of that application"
+        }
+      ],
+      "question_text": "If an application for registration is pending against the title",
+      "question_number": 8
+    }
+  ]
+}

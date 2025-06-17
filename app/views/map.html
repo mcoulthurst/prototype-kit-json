@@ -1,0 +1,47 @@
+
+
+{% extends "layouts/main_rebrand.html" %}
+{% import "answer-types.njk" as answerType %}
+
+{% set serviceName= "Register your contractual control" %}
+
+{% set pageName="Check your answers" %}
+
+{% block beforeContent %}
+{% include "includes/phase-banner.html" %}
+{% include "includes/language-switcher.html" %}
+{% endblock %}
+
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-!-padding-bottom-9">
+
+          <h1 class="govuk-heading-l">
+            Where is the map?
+          </h1>
+          <p class="govuk-body">Map goes here.</p>
+
+
+
+
+      <form action="/form-handler" method="post" novalidate>
+        <input type="hidden" name="answers-checked" value="true">
+
+        {{ govukButton({
+          text: "Continue",
+          href: "/page/"+ (page.question_number+1)
+          }) }}
+      </form>
+
+      
+    </div>
+    </div>
+
+
+  
+
+  </div>
+
+
+{% endblock %}

@@ -1,0 +1,230 @@
+{
+  "filename": "TR1__2023-08-29_ct.pdf",
+  "formStructure": [
+    8,
+    17,
+    3,
+    2
+  ],
+  "pages": [
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Title number(s) of the property:",
+      "question_number": 1
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Property:",
+      "hint_text": "Insert address including postcode (if any) or other description of the property, for example 'land adjoining 2 Acacia Avenue'.",
+      "question_number": 2
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date:",
+      "hint_text": "Remember to date this deed with the day of completion, but not before it has been signed and witnessed.",
+      "question_number": 3
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Transferor:",
+      "hint_text": "Give full name(s) of all the persons transferring the property.",
+      "question_number": 4
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Registered number of company or limited liability partnership including any prefix:",
+      "help_text": "For UK incorporated companies/LLPs"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "(a) Territory of incorporation or formation:",
+      "help_text": "For overseas entities"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "(b) Overseas entity ID issued by Companies House, including any prefix:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "(c) Where the entity is a company with a place of business in the United Kingdom, the registered number, if any, issued by Companies House, including any prefix:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Give full name(s) of all the persons to be shown as registered proprietors.",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Complete as appropriate where the transferee is a company. Also, for an overseas company, unless an arrangement with HM Land Registry exists, lodge either a certificate in Form 7 in Schedule 3 to the Land Registration Rules 2003 or a certified copy of the constitution in English or Welsh, or other evidence permitted by rule 183 ule 183 of the Land Registration Rules 2003.",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Enter the overseas entity ID issued by Companies House for the transferee pursuant to the Economic Crime (Transparency and Enforcement) Act 2022. If the ID is not required, you may instead state 'not required'.",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Further details on overseas entities can be found in practice guide 78: overseas entities.",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Each transferee may give up to three addresses for service, one of which must be a postal address whether or not in the UK (including the postcode, if any). The others can be any combination of a postal address, a UK DX box number or an email address.",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Transferee for entry in the register:",
+      "hint_text": "",
+      "question_number": 5
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "For UK incorporated companies/LLPs Registered number of company or limited liability partnership including any prefix:",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "For overseas entities (a) Territory of incorporation or formation:",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "(b) Overseas entity ID issued by Companies House, including any prefix",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "(c) Where the entity is a company with a place of business in the United Kingdom, the registered number, if any, issued by Companies House, including any prefix:",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Transferee's intended address(es) for service for entry in the register:",
+      "hint_text": "",
+      "question_number": 6
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "The transferor transfers the property to the transferee",
+      "hint_text": "",
+      "question_number": 7
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "The transferor has received from the transferee for the property the following sum (in words and figures):",
+          "value": "The transferor has received from the transferee for the property the following sum (in words and figures):"
+        },
+        {
+          "text": "The transfer is not for money or anything that has a monetary value",
+          "value": "The transfer is not for money or anything that has a monetary value"
+        },
+        {
+          "text": "Insert other receipt as appropriate:",
+          "value": "Insert other receipt as appropriate:"
+        }
+      ],
+      "question_text": "Consideration",
+      "hint_text": "",
+      "question_number": 8
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "full title guarantee",
+          "value": "full title guarantee"
+        },
+        {
+          "text": "limited title guarantee",
+          "value": "limited title guarantee"
+        }
+      ],
+      "question_text": "The transferor transfers with",
+      "hint_text": "",
+      "question_number": 9
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Place 'X' in any box that applies.",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Add any modifications.",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Place 'X' in the appropriate box. State the currency unit if other than sterling. If none of the boxes apply, insert an appropriate memorandum in panel 11.",
+      "hint_text": ""
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Where the transferee is more than one person, place 'X' in the appropriate box.",
+      "hint_text": "Complete as necessary.",
+      "information": "The registrar will enter a Form A restriction in the register unless:\nan 'X' is placed:\n- in the first box, or\n- in the third box and the details of the trust or of the trust instrument show that the transferees are to hold the property on trust for themselves alone as joint tenants, or\n- it is clear from completion of a form JO lodged with this application that the transferees are to hold the property on trust for themselves alone as joint tenants.\n\nPlease refer to Joint property ownership and practice guide 24: private trusts of land for further guidance. These are both available on the GOV.UK website.\n\nInsert here any required or permitted statement, certificate or application and any agreed covenants, declarations and so on."
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "they are to hold the property on trust for themselves as joint tenants"
+        },
+        {
+          "text": "they are to hold the property on trust for themselves as tenants in common in equal shares"
+        },
+        {
+          "text": "they are to hold the property on trust:"
+        }
+      ],
+      "question_text": "Declaration of trust. The transferee is more than one person and",
+      "question_number": 10
+    },
+    {
+      "answer_type": "text_area",
+      "options": [],
+      "question_text": "Additional provisions",
+      "question_number": 11
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Execution",
+      "question_number": 12
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "WARNING",
+      "information": "If you dishonestly enter information or make a statement that you know is, or might be, untrue or misleading, and intend by doing so to make a gain for yourself or another person, or to cause loss or the risk of loss to another person, you may commit the offence of fraud under section 1 of the Fraud Act 2006, the maximum penalty for which is 10 years' imprisonment or an unlimited fine, or both.\n\nFailure to complete this form with proper care may result in a loss of protection under the Land Registration Act 2002 if, as a result, a mistake is made in the register.\n\nUnder section 66 of the Land Registration Act 2002 most documents (including this form) kept by the registrar relating to an application to the registrar or referred to in the register are open to public inspection and copying. ving. If If you you believe belie a document contains prejudicial information, you may apply for that part of the document to be made exempt using Form EX1, under rule 136 of the Land Registration Rules 2003."
+    }
+  ]
+}

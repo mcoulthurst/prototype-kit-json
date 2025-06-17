@@ -1,0 +1,472 @@
+{
+  "filename": "AP1__2024-10-07_.pdf",
+  "formStructure": [
+    15,
+    20,
+    7,
+    8,
+    10,
+    5,
+    4
+  ],
+  "pages": [
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "HM Land Registry Application to change the register",
+      "information": "Any parts of the form that are not typed should be completed in black ink and in block capitals.\n\nIf you need more room than is provided for in a panel, and your software allows, you can expand any panel in the form. Alternatively use continuation sheet CS and attach it to this form.\n\nHM Land Registry is unable to give legal advice, but you can find guidance on HM Land Registry applications (including our practice guides for conveyancers) at www.gov.uk/land-registry.\n\nConveyancer is a term used in this form. It is defined in rule 217A, Land Registration Rules 2003 and includes persons authorised under the Legal Services Act 2007 to provide reserved legal services relating to land registration and includes solicitors and licensed conveyancers.\n\nFor information on how HM Land Registry processes your personal information, see our Personal Information Charter."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Record of fees paid"
+    },
+    {
+      "answer_type": "text_area",
+      "options": [],
+      "question_text": "Particulars of under/over payments"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Reference number"
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "Fees debited £"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Local authority serving the property:",
+      "question_number": 1
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Full postcode of property (if any):",
+      "question_number": 1
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Title number(s) of the property:",
+      "question_number": 2
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "the whole of the title(s)"
+        },
+        {
+          "text": "part of the title(s) as shown:"
+        }
+      ],
+      "question_text": "The application affects",
+      "question_number": 3
+    },
+    {
+      "answer_type": "text_area",
+      "options": [],
+      "question_text": "Give a brief description of the part affected, for example 'edged red on the plan to the transfer dated"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Applications in priority order",
+      "question_number": 4
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "Price paid/Value (£)",
+      "question_number": 4
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "Fees paid (£)",
+      "question_number": 4
+    },
+    {
+      "answer_type": "number",
+      "options": [],
+      "question_text": "Total fees (£)"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "cheque made payable to 'Land Registry'"
+        },
+        {
+          "text": "direct debit, under an agreement with Land Registry"
+        }
+      ],
+      "question_text": "Fee payment method"
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "List the documents lodged with this form.",
+      "help_text": "We only need certified copies of deeds or documents you send to us with HM Land Registry application forms. Once we have made a copy of the documents you send to us, they will be destroyed, this applies to both originals and certified copies",
+      "information": "List the documents lodged with this form.\n\nWe only need certified copies of deeds or documents you send to us with HM Land Registry application forms. Once we have made a copy of the documents you send to us, they will be destroyed, this applies to both originals and certified copies",
+      "question_number": 5
+    },
+    {
+      "answer_type": "text_area",
+      "options": [],
+      "question_text": "Documents lodged with this form:",
+      "question_number": 5
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Provide the full name(s) of the person(s) applying to change the register.",
+      "help_text": "Where a conveyancer lodges the application, this must be the name(s) of the client(s), not the conveyancer.",
+      "information": "Provide the full name(s) of the person(s) applying to change the register.\n\nWhere a conveyancer lodges the application, this must be the name(s) of the client(s), not the conveyancer.",
+      "question_number": 6
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "The applicant:",
+      "question_number": 6
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Registered number of company or limited liability partnership including any prefix:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "(a) Territory of incorporation or formation:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "(b) Overseas entity ID issued by Companies House, including any prefix:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "(c) Where the entity is a company with a place of business in the United Kingdom, the registered number, if any, issued by Companies House, including any prefix:"
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "This panel must always be completed.",
+      "help_text": "This panel must always be completed with the details of the person sending the application to HM Land Registry. However, a key number is only available to professional customers, such as solicitors, and so a key number cannot be entered where the application is sent to HM Land Registry by a private individual.\n\nIf you are paying by direct debit, this will be the account charged.\n\nThis is the address to which we will normally send requisitions. However if you insert an email address, we will use this whenever possible.\n\nAn acknowledgement of receipt of this application, if lodged by post, will be sent by email if one is available.\n\nWe will only issue warning of cancellation letters to conveyancers if an email address is inserted",
+      "information": "This panel must always be completed.\n\nThis panel must always be completed with the details of the person sending the application to HM Land Registry. However, a key number is only available to professional customers, such as solicitors, and so a key number cannot be entered where the application is sent to HM Land Registry by a private individual.\n\nIf you are paying by direct debit, this will be the account charged.\n\nThis is the address to which we will normally send requisitions. However if you insert an email address, we will use this whenever possible.\n\nAn acknowledgement of receipt of this application, if lodged by post, will be sent by email if one is available.\n\nWe will only issue warning of cancellation letters to conveyancers if an email address is inserted",
+      "question_number": 7
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Key number (if applicable):",
+      "question_number": 7
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Name:",
+      "question_number": 7
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address or UK DX box number:",
+      "question_number": 7
+    },
+    {
+      "answer_type": "email",
+      "options": [],
+      "question_text": "Email address:",
+      "question_number": 7
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Reference:",
+      "question_number": 7
+    },
+    {
+      "answer_type": "phone_number",
+      "options": [],
+      "question_text": "Phone no:",
+      "question_number": 7
+    },
+    {
+      "answer_type": "phone_number",
+      "options": [],
+      "question_text": "Fax no:",
+      "question_number": 7
+    },
+    {
+      "answer_type": "name",
+      "options": [],
+      "question_text": "Name:",
+      "question_number": 8
+    },
+    {
+      "answer_type": "address",
+      "options": [],
+      "question_text": "Address or UK DX box number:",
+      "question_number": 8
+    },
+    {
+      "answer_type": "email",
+      "options": [],
+      "question_text": "Email address:",
+      "question_number": 8
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Reference:",
+      "question_number": 8
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "When completing this panel please refer to Guidance: completing form AP1.",
+      "information": "When completing this panel please refer to Guidance: completing form AP1.\n\nPlace 'X' in the appropriate box.\n\nIn this and panel 10, each proprietor may give up to three addresses for service, one of which must be a postal address whether or not in the UK (including the postcode, if any). The others can be any combination of a postal address, a UK DX box number or an email address.\n\nWhere a charge has an MD reference we will ignore an address given in this panel unless the charge is in favour of a United Kingdom bank and neither the charge form nor any agreement we have with the lender specifies an address for service.\n\nFor permitted addresses see note to panel 9.\n\nComplete as appropriate where the lender is a company. Also, for an overseas company, unless an arrangement with HM Land Registry exists, lodge either a certificate in Form 7 in Schedule 3 to the Land Registration Rules 2003 or a certified copy of the constitution in English or Welsh, or other evidence permitted by rule 183 of the Land Registration Rules 2003.\n\nIf this statement applies (i) place 'X' in the box and (ii) enclose Form DI.\n\nSection 27 of the Land Registration Act 2002 lists the registrable dispositions.\n\nRule 57 of the Land Registration Rules 2003 sets out the disclosable overriding interests that you must tell us about."
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "the address of the property (where this is a single postal address)"
+        },
+        {
+          "text": "the address(es) for service from the transfer/assent"
+        },
+        {
+          "text": "the current address(es) for service in the register"
+        },
+        {
+          "text": "the following address(es):"
+        }
+      ],
+      "question_text": "The address(es) for service for each proprietor of the registered estate(s) to be entered in the register is",
+      "question_number": 9
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name and address(es) for service of the proprietor of any new charge to be entered in the register:",
+      "question_number": 10
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Registered number of company or limited liability partnership including any prefix:",
+      "help_text": "For UK incorporated companies/LLPs"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "(a) Territory of incorporation:",
+      "help_text": "For overseas companies"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "(b) Where the entity is a company with a place of business in the United Kingdom, the registered number, if any, issued by Companies House, including any prefix:",
+      "help_text": "For overseas companies"
+    },
+    {
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "text": "This application relates to a registrable disposition and disclosable overriding interests affect the registered estate."
+        }
+      ],
+      "question_text": "Disclosable overriding interests",
+      "question_number": 11
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Confirmation of identity",
+      "information": "Full details of the evidence of identity that is required can be found in Practice Guide 67 and in 'Completing the evidence of identity panels on forms AP1, FR1, and DS2' both of which can be found on the GOV.UK website.\n\nPlace 'X' in the appropriate box.\n\nConveyancer is defined in rule 217A, Land Registration Rules 2003 and includes persons authorised under the Legal Services Act 2007 to provide reserved legal services relating to land registration and includes solicitors and licensed conveyancers.\n\nPlace 'X' in the box in the second column if the person or firm who is sending the application to HM Land Registry represented that party in the transaction. Otherwise complete the details in the third column. If the party is not represented insert 'none' in the third column.\n\nA separate box is provided, or can be added, for each party, as required by panel 13(1). That includes separate boxes for attorneys and donors where appropriate.\n\nWhen registering transfers, charges, leases and other dispositions of land, or giving effect to a discharge or release of a registered charge, Land Registry relies on the steps that conveyancers take, where appropriate, to verify the identity of their clients. These checks reduce the risk of property fraud.\n\nWhere a person was not represented by a conveyancer, Land Registry requires 'evidence of identity' in respect of that person, except where the first alternative in panel 13(2) applies.\n\n'Evidence of identity' is evidence provided in accordance with any current direction made by the Chief Land Registrar under section 100(4) of the Land Registration Act 2002 for the purpose of confirming a person's identity.\n\nIf this application is to register a transfer, lease or charge, or to give effect to a discharge in Form DS1 or a release in Form DS3 complete one of the following",
+      "question_number": 12
+    },
+    {
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "text": "I am a conveyancer, and I have completed panel 13"
+        },
+        {
+          "text": "I am not a conveyancer, and I have completed panel 14"
+        }
+      ],
+      "question_text": "If this application is to register a transfer, lease or charge, or to give effect to a discharge in Form DS1 or a release in Form DS3 complete one of the following",
+      "question_number": 12
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Where the application is sent to Land Registry by a conveyancer",
+      "question_number": 13
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "(1) Details of conveyancer acting",
+      "help_text": "If you are sending an application to register a transfer, lease or charge, for each party to each disposition that is to be registered state in the table below the details of the conveyancer (if any) who represented them.\n\nWhere a party is not represented by a conveyancer you must also complete (2) below."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of transferor, landlord, transferee, tenant, borrower or lender",
+      "hint_text": "Conveyancer's name, address and reference"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Reference:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Reference:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Reference:"
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Place 'X' in the box in the second column if the person or firm who is sending the application to HM Land Registry represented that party in the transaction. Otherwise complete the details in the third column. If the party is not represented insert 'none' in the third column.\n\nA separate box is provided, or can be added, for each party, as required by panel 13(1). That includes separate boxes for attorneys and donors where appropriate.",
+      "information": "Place 'X' in the box in the second column if the person or firm who is sending the application to HM Land Registry represented that party in the transaction. Otherwise complete the details in the third column. If the party is not represented insert 'none' in the third column.\n\nA separate box is provided, or can be added, for each party, as required by panel 13(1). That includes separate boxes for attorneys and donors where appropriate."
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "If you are sending an application to give effect to a discharge in Form DS1 or release in Form DS3 for each lender, state in the table below the details of the conveyancer (if any) who represented them.\n\nWhere a lender is not represented by a conveyancer you must also complete (2) below.",
+      "information": "If you are sending an application to give effect to a discharge in Form DS1 or release in Form DS3 for each lender, state in the table below the details of the conveyancer (if any) who represented them.\n\nWhere a lender is not represented by a conveyancer you must also complete (2) below."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of lender",
+      "hint_text": "Conveyancer's name, address and reference"
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Place 'X' in the appropriate box(es).\n\nInsert the name of each unrepresented transferor, landlord, transferee, tenant, borrower or lender for whom you give this confirmation.",
+      "information": "Place 'X' in the appropriate box(es).\n\nInsert the name of each unrepresented transferor, landlord, transferee, tenant, borrower or lender for whom you give this confirmation."
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "Evidence of identity is defined in panel 12. Full details of the evidence of identity that is required can be found in Practice Guide 67 available on the GOV.UK website.",
+      "information": "Evidence of identity is defined in panel 12. Full details of the evidence of identity that is required can be found in Practice Guide 67 available on the GOV.UK website."
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "(2) Evidence of identity\n\nWhere any transferor, landlord, transferee, tenant, borrower or lender listed in (1) was not represented by a conveyancer",
+      "information": "(2) Evidence of identity\n\nWhere any transferor, landlord, transferee, tenant, borrower or lender listed in (1) was not represented by a conveyancer"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "I confirm that I am satisfied that sufficient steps have been taken to verify the identity of",
+          "value": "I confirm that I am satisfied that sufficient steps have been taken to verify the identity of"
+        },
+        {
+          "text": "I enclose evidence of identity in respect of each unrepresented transferor, landlord, transferee, tenant, borrower or lender for whom I have not provided the confirmation above",
+          "value": "I enclose evidence of identity in respect of each unrepresented transferor, landlord, transferee, tenant, borrower or lender for whom I have not provided the confirmation above"
+        }
+      ],
+      "question_text": "and that they are the registered proprietor or have the right to be registered as the registered proprietor"
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "14 Where the application is sent to Land Registry by someone who is not a conveyancer\n\n(1) Details of conveyancer acting",
+      "information": "14 Where the application is sent to Land Registry by someone who is not a conveyancer\n\n(1) Details of conveyancer acting"
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "If you are sending an application to register a transfer, lease or charge (ie a mortgage), for each party to each disposition that is to be registered, state in the table below the details of the conveyancer (if any) who represented them.",
+      "information": "If you are sending an application to register a transfer, lease or charge (ie a mortgage), for each party to each disposition that is to be registered, state in the table below the details of the conveyancer (if any) who represented them."
+    },
+    {
+      "answer_type": "information_page",
+      "options": [],
+      "question_text": "You must also complete (2) below.",
+      "information": "You must also complete (2) below."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of transferor, landlord, transferee, tenant, borrower or lender",
+      "hint_text": "If the party is not represented insert 'none' in the second column.",
+      "information": "A separate box is provided, or can be added, for each party, as required by panel 14(1). That includes separate boxes for attorneys and donors where appropriate."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Conveyancer's name, address and reference",
+      "hint_text": "If you are sending an application to give effect to a discharge in Form DS1 or release in Form DS3, for each lender state in the table below the details of the conveyancer (if any) who represented them."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Name of lender",
+      "hint_text": "You must also complete (2) below."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Conveyancer's name, address and reference"
+    },
+    {
+      "answer_type": "multiple_choice",
+      "options": [
+        {
+          "text": "for each applicant named in panel 6 is enclosed"
+        },
+        {
+          "text": "for each unrepresented transferor, landlord, transferee, tenant, borrower or lender listed in (1) is enclosed"
+        }
+      ],
+      "question_text": "(2) Evidence of identity",
+      "hint_text": "Place 'X' in the appropriate box(es)",
+      "information": "Evidence of identity is defined in panel 12. Full details of the evidence of identity that is required can be found in 'Completing the evidence of identity panels on forms AP1, FR1, and DS2' available on the GOV.UK website."
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Signature of conveyancer:",
+      "question_number": 15
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date:"
+    },
+    {
+      "answer_type": "text",
+      "options": [],
+      "question_text": "Signature of applicant:"
+    },
+    {
+      "answer_type": "date",
+      "options": [],
+      "question_text": "Date:"
+    }
+  ]
+}
