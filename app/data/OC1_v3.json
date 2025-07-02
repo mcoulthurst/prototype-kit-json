@@ -1,0 +1,188 @@
+{
+  "filename": "OC1__2023-08-29_.pdf",
+  "title": "Get copies of the register (OC1)",
+
+  "pages": [
+    {
+      "question_number": 1,
+      "question_text": "What local authority serves the property?",
+      "hint_text": "Enter the local authority to which council tax or business rates are normally paid. Where there is more than one local authority serving an area, enter the one to which these are normally paid.",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 2,
+      "question_text": "Do you know the title number?",
+      "hint_text": "The title number is a unique reference for the property's registration",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the title number?",
+      "hint_text": "Enter the title number if you know it",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 4,
+      "question_text": "What type of property interest is this?",
+      "hint_text": "Select the type of estate or interest",
+      "answer_type": "single_choice",
+      "options": [
+        {"value": "freehold", "text": "Freehold"},
+        {"value": "leasehold", "text": "Leasehold"},
+        {"value": "manor", "text": "Manor"},
+        {"value": "franchise", "text": "Franchise"},
+        {"value": "caution_against_first_registration", "text": "Caution against first registration"},
+        {"value": "rentcharge", "text": "Rentcharge"},
+        {"value": "profit_a_prendre_in_gross", "text": "Profit a prendre in gross"}
+      ]
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the property address?",
+      "hint_text": "Enter the full address of the property",
+      "answer_type": "address",
+      "answer_settings": {
+        "input_type": "uk_address"
+      },
+      "options": []
+    },
+    {
+      "question_number": 6,
+      "question_text": "What type of official copy do you need?",
+      "hint_text": "Select what you need copies of",
+      "answer_type": "multiple_choice",
+      "options": [
+        {"value": "register", "text": "Official copy of the register"},
+        {"value": "title_plan", "text": "Official copy of the title plan or caution plan"},
+        {"value": "certificate_inspection", "text": "Certificate of inspection of title plan"}
+      ]
+    },
+    {
+      "question_number": 7,
+      "question_text": "How many copies do you need of the register?",
+      "hint_text": "Enter the total number of copies required",
+      "answer_type": "number",
+      "options": []
+    },
+    {
+      "question_number": 8,
+      "question_text": "How many copies do you need of the title plan?",
+      "hint_text": "Enter the total number of copies required",
+      "answer_type": "number",
+      "options": []
+    },
+    {
+      "question_number": 9,
+      "question_text": "How many certificates of inspection do you need?",
+      "hint_text": "Enter the total number of certificates required",
+      "answer_type": "number",
+      "options": []
+    },
+    {
+      "question_number": 10,
+      "question_text": "Has an estate plan been approved for this property?",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 11,
+      "question_text": "What is the plot number on the approved estate plan?",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 12,
+      "question_text": "What land reference description should be used?",
+      "hint_text": "For example, 'edged red' or other descriptive reference",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 13,
+      "question_text": "Is there a pending application for registration against this title?",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 14,
+      "question_text": "What type of official copy do you need for the pending application?",
+      "answer_type": "single_choice",
+      "options": [
+        {"value": "back_dated", "text": "Official copy back-dated prior to receipt of the application"},
+        {"value": "on_completion", "text": "Official copy on completion of that application"}
+      ]
+    },
+    {
+      "question_number": 15,
+      "question_text": "How do you want to pay?",
+      "answer_type": "single_choice",
+      "options": [
+        {"value": "cheque", "text": "Cheque made payable to 'Land Registry'"},
+        {"value": "direct_debit", "text": "Direct debit, under an agreement with Land Registry"}
+      ]
+    },
+    {
+      "question_number": 16,
+      "question_text": "What is your name?",
+      "answer_type": "name",
+      "answer_settings": {
+        "input_type": "full_name"
+      },
+      "options": []
+    },
+    {
+      "question_number": 17,
+      "question_text": "What is your address?",
+      "hint_text": "This can be your address or UK DX box number",
+      "answer_type": "address",
+      "answer_settings": {
+        "input_type": "uk_address"
+      },
+      "options": []
+    },
+    {
+      "question_number": 18,
+      "question_text": "What is your email address?",
+      "hint_text": "We'll use this to send you the official copies electronically unless you request paper format",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 19,
+      "question_text": "What is your phone number?",
+      "hint_text": "Optional",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 20,
+      "question_text": "What is your reference?",
+      "hint_text": "Optional - your own reference for this application",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 21,
+      "question_text": "Do you have a key number?",
+      "hint_text": "Key numbers are only available to professional customers, such as solicitors",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 22,
+      "question_text": "What is your key number?",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 23,
+      "question_text": "Do you want to receive your official copies in paper format?",
+      "hint_text": "If you don't select this option, copies will be sent electronically to your email address",
+      "answer_type": "yes_no_question",
+      "options": []
+    }
+  ]
+}

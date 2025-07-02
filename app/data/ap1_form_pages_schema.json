@@ -1,0 +1,340 @@
+{
+  "filename": "AP1 version 2",
+  "serviceName": "HM Land Registry Application to change the register",
+  "formStructure": [
+    15,
+    20,
+    7,
+    8,
+    10,
+    5,
+    4
+  ],
+  "pages": [
+    {
+      "question_number": 1,
+      "question_text": "What is the local authority serving the property?",
+      "hint_text": "Where there is more than one local authority serving an area, enter the one to which council tax or business rates are normally paid.",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the full postcode of the property?",
+      "hint_text": "Enter the full postcode if available.",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 3,
+      "question_text": "What are the title numbers of the property?",
+      "hint_text": "Enter the title number of each title that requires an entry to be made in that register.",
+      "answer_type": "text_area",
+      "options": []
+    },
+    {
+      "question_number": 4,
+      "question_text": "Does the application affect the whole of the title or part of it?",
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "value": "whole",
+          "text": "The whole of the title(s)"
+        },
+        {
+          "value": "part",
+          "text": "Part of the title(s) as shown"
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "question_text": "Describe the part of the title affected",
+      "hint_text": "Give a brief description of the part affected, for example 'edged red on the plan to the transfer dated...'",
+      "answer_type": "text_area",
+      "options": []
+    },
+    {
+      "question_number": 6,
+      "question_text": "What applications are you making in priority order?",
+      "hint_text": "List the applications in the order of priority you want them processed.",
+      "answer_type": "text_area",
+      "options": []
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the price paid or value?",
+      "hint_text": "Enter the amount in pounds (£).",
+      "answer_type": "number",
+      "options": []
+    },
+    {
+      "question_number": 8,
+      "question_text": "What fees are you paying?",
+      "hint_text": "Enter the fee amount in pounds (£).",
+      "answer_type": "number",
+      "options": []
+    },
+    {
+      "question_number": 9,
+      "question_text": "How will you pay the fees?",
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "value": "cheque",
+          "text": "Cheque made payable to 'Land Registry'"
+        },
+        {
+          "value": "direct_debit",
+          "text": "Direct debit, under an agreement with Land Registry"
+        }
+      ]
+    },
+    {
+      "question_number": 10,
+      "question_text": "What documents are you lodging with this form?",
+      "hint_text": "List all documents you are sending with this application.",
+      "answer_type": "text_area",
+      "options": []
+    },
+    {
+      "question_number": 11,
+      "question_text": "What is the full name of the person or organisation applying?",
+      "hint_text": "Provide the full name(s) of the person(s) applying to change the register.",
+      "answer_type": "name",
+      "options": []
+    },
+    {
+      "question_number": 12,
+      "question_text": "Is the applicant a UK company or limited liability partnership?",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 13,
+      "question_text": "What is the registered number of the company or limited liability partnership?",
+      "hint_text": "Include any prefix with the number.",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 14,
+      "question_text": "Is the applicant an overseas entity?",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 15,
+      "question_text": "What is the territory of incorporation or formation?",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 16,
+      "question_text": "What is the overseas entity ID issued by Companies House?",
+      "hint_text": "Include any prefix with the ID. If not required, state 'not required'.",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 17,
+      "question_text": "What is the UK registered number issued by Companies House?",
+      "hint_text": "Only complete if the entity has a place of business in the United Kingdom. Include any prefix.",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 18,
+      "question_text": "What is your key number?",
+      "hint_text": "Only available to professional customers such as solicitors. Leave blank if not applicable.",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 19,
+      "question_text": "What is the name of the person or organisation sending this application?",
+      "answer_type": "name",
+      "options": []
+    },
+    {
+      "question_number": 20,
+      "question_text": "What is your address or UK DX box number?",
+      "answer_type": "address",
+      "options": []
+    },
+    {
+      "question_number": 21,
+      "question_text": "What is your email address?",
+      "answer_type": "email",
+      "options": []
+    },
+    {
+      "question_number": 22,
+      "question_text": "What is your reference?",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 23,
+      "question_text": "What is your phone number?",
+      "answer_type": "phone_number",
+      "options": []
+    },
+    {
+      "question_number": 24,
+      "question_text": "What is your fax number?",
+      "hint_text": "Leave blank if not applicable.",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 25,
+      "question_text": "Do you want to notify a third party about this application?",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 26,
+      "question_text": "What is the name of the third party to notify?",
+      "answer_type": "name",
+      "options": []
+    },
+    {
+      "question_number": 27,
+      "question_text": "What is the third party's address or UK DX box number?",
+      "answer_type": "address",
+      "options": []
+    },
+    {
+      "question_number": 28,
+      "question_text": "What is the third party's email address?",
+      "answer_type": "email",
+      "options": []
+    },
+    {
+      "question_number": 29,
+      "question_text": "What is the third party's reference?",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 30,
+      "question_text": "What address for service should be used for each proprietor?",
+      "hint_text": "Each proprietor may give up to three addresses for service, one of which must be a postal address.",
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "value": "property_address",
+          "text": "The address of the property (where this is a single postal address)"
+        },
+        {
+          "value": "transfer_address",
+          "text": "The address(es) for service from the transfer/assent"
+        },
+        {
+          "value": "current_address",
+          "text": "The current address(es) for service in the register"
+        },
+        {
+          "value": "following_address",
+          "text": "The following address(es)"
+        }
+      ]
+    },
+    {
+      "question_number": 31,
+      "question_text": "What are the following addresses for service?",
+      "hint_text": "Provide the specific addresses for service.",
+      "answer_type": "text_area",
+      "options": []
+    },
+    {
+      "question_number": 32,
+      "question_text": "Is there a new charge to be entered in the register?",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 33,
+      "question_text": "What is the name and address for service of the proprietor of the new charge?",
+      "answer_type": "text_area",
+      "options": []
+    },
+    {
+      "question_number": 34,
+      "question_text": "Is the charge proprietor a UK company or limited liability partnership?",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 35,
+      "question_text": "What is the registered number of the company or limited liability partnership?",
+      "hint_text": "Include any prefix with the number.",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 36,
+      "question_text": "Is the charge proprietor an overseas company?",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 37,
+      "question_text": "What is the territory of incorporation?",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 38,
+      "question_text": "What is the UK registered number issued by Companies House?",
+      "hint_text": "Only complete if the company has a place of business in the United Kingdom. Include any prefix.",
+      "answer_type": "text",
+      "options": []
+    },
+    {
+      "question_number": 39,
+      "question_text": "Does this application relate to a registrable disposition with disclosable overriding interests?",
+      "hint_text": "Tick if this application relates to a registrable disposition and disclosable overriding interests affect the registered estate.",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 40,
+      "question_text": "Are you a conveyancer?",
+      "hint_text": "A conveyancer includes solicitors and licensed conveyancers authorised to provide reserved legal services relating to land registration.",
+      "answer_type": "single_choice",
+      "options": [
+        {
+          "value": "conveyancer",
+          "text": "I am a conveyancer"
+        },
+        {
+          "value": "not_conveyancer",
+          "text": "I am not a conveyancer"
+        }
+      ]
+    },
+    {
+      "question_number": 41,
+      "question_text": "What are the details of parties to the disposition?",
+      "hint_text": "For each party to each disposition that is to be registered, provide the name and conveyancer details.",
+      "answer_type": "text_area",
+      "options": []
+    },
+    {
+      "question_number": 42,
+      "question_text": "Are you satisfied that sufficient steps have been taken to verify identity?",
+      "hint_text": "Confirm for any unrepresented parties that you are satisfied about identity verification.",
+      "answer_type": "yes_no_question",
+      "options": []
+    },
+    {
+      "question_number": 43,
+      "question_text": "Are you enclosing evidence of identity?",
+      "hint_text": "Confirm if you are enclosing evidence of identity for unrepresented parties.",
+      "answer_type": "yes_no_question",
+      "options": []
+    }
+  ]
+}

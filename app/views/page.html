@@ -11,6 +11,73 @@
 {% block beforeContent %}
 {% include "includes/phase-banner.html" %}
 {% include "includes/language-switcher.html" %}
+
+<script>
+
+  const questionNum = {{ pageNum }};
+  const form = "{{ form }}";
+  var heading, hint, searchBtn;
+
+
+  var ready = (callback) => {
+    if (document.readyState != "loading") callback();
+    else document.addEventListener("DOMContentLoaded", callback);
+  }
+
+
+  ready(() => { 
+    /* Do things after DOM has fully loaded */ 
+    console.log('All Systems Red');
+
+    heading = document.getElementsByClassName("govuk-fieldset__heading")[0];
+    // catch any text blocks
+    if(!heading){
+      heading = document.getElementsByClassName("govuk-label--l")[0]; // govuk-fieldset__heading
+    }
+    heading.setAttribute("contenteditable", "true");
+    // Sorry! Dirty hack to prevent the editable text focusing on the input field
+    heading.setAttribute("for", "blank");
+
+    hint = document.getElementsByClassName("govuk-hint")[0];
+    hint.setAttribute("contenteditable", "true");
+
+    searchBtn = document.getElementById("saveBtn");
+    searchBtn.addEventListener("click", saveData);
+
+  });
+  
+
+  saveData = () => {
+    console.log('Question number ', questionNum );
+    console.log(heading.innerHTML.trim());
+    console.log(hint.innerHTML.trim());
+
+    const body = JSON.stringify({
+        form: form,
+        question: questionNum,
+        question_text: heading.innerHTML.trim(),
+        hint_text: hint.innerHTML.trim()
+      })
+console.log(body);
+
+    fetch("/saveData", {
+      method: "POST",
+      body: body,
+      headers: {
+        "Content-type": "application/json; charset=UTF-8"
+      }
+    })
+    .then( (response) => response.json() )
+    .then((json) => {
+      console.log(json);
+      //remove button focus
+      searchBtn.blur();
+    });
+  }
+
+
+
+</script>
 {% endblock %}
 
 
@@ -74,6 +141,10 @@
         {% endif %}
 
 
+        <input type="hidden" name="json" value="true">
+        <button id="saveBtn" class="govuk-button govuk-button--warning" data-module="govuk-button">
+          Save changes {{pageNum}}
+        </button>
 
       <form action="/form-handler" method="post" novalidate>
         <input type="hidden" name="answers-checked" value="true">
