@@ -22,7 +22,8 @@ router.get('/page/:pageNum', (req, res) => {
   const page = req.session.data.pages.pages[pageNum];
   res.locals.pageNum = pageNum;
   res.locals.page = page;
-  
+  res.locals.form = "pages";
+
   // add a static page into the flow
   if (pageNum == 5){
     res.render('map.html')
@@ -63,10 +64,11 @@ router.post('/saveData', async (req, res) => {
   let question = req.body.question;
   let form = req.body.form;
   console.log(newContent);
+  /* 
   console.log(form);
   console.log(question);
   console.log(req.session.data[form].pages[question]);
-
+  */
   // update the json
   req.session.data[form].pages[question].question_text = newContent.question_text;
   req.session.data[form].pages[question].hint_text = newContent.hint_text;
