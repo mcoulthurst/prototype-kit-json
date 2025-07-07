@@ -12,11 +12,18 @@
     </h1>
 
     <p class="govuk-body"><a href="/page/1">Example AI generated registration</a></p>
-    <p class="govuk-body">This form was generated using a Claude.ai. Text was extracted from a “check your answers” page and was passed with this prompt:</p>
+    <p class="govuk-body">This form was generated using Claude.ai. Text was extracted from a “check your answers” page and was passed with this prompt:</p>
     <p class="govuk-caption-m">“I want a list of separate pages that follow the gov design system that ask the relevant questions to create this data... use the attached schema” (see Tim Paul's extract-form-questions-schema.json)</p>
     <p class="govuk-body">The resulting form.json was then loaded into the prototype and the individual page data was passed in the routes.js to the page template where is was rendered using the nunjucks from Tim's form generator linked together.</p>
   </div>
 </div>
+
+{{ govukButton({
+    text: "Create new form",
+    classes: "govuk-button--secondary",
+    href:  "form"
+    }) }}
+
  <h3 class="govuk-heading-s">
       Example HMLR forms
     </h3>

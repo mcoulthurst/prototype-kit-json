@@ -1,12 +1,56 @@
+
 //
 // For guidance on how to create routes see:
 // https://prototype-kit.service.gov.uk/docs/create-routes
 //
 
-const govukPrototypeKit = require('govuk-prototype-kit')
-const router = govukPrototypeKit.requests.setupRouter()
+const govukPrototypeKit = require('govuk-prototype-kit');
+const router = govukPrototypeKit.requests.setupRouter();
 
 // Add your routes here
+var fs = require('file-system');
+
+function readFile( url ){
+    fs.readFile(url, 'utf8', function( err, data ){
+        if ( err ) {
+            console.log( 'error', err );
+        } else {
+            console.log('file read');
+            console.log(data);
+            return data;
+        }
+    });
+}
+
+function saveFile( url, body ){
+    fs.writeFile(url, body, (err) => {
+        if (err) {
+            console.log('Error saving');
+            throw err;
+        } else {
+            console.log('It\'s saved!');
+        }
+    });
+}
+/* 
+// create constants for filename and dirname
+import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
+const __dirname = path.dirname(__filename); // get the name of the directory
+ */
+
+let files = fs.readdirSync( __dirname + '/data' );
+console.log(files);
+
+ for(var i=0; i<files.length; i++){
+  console.log(files[i]);
+  
+ }
+//JSON.parse(fs.readFileSync('./public/results/form-'+formId+'/form.json'))
+console.log(__dirname);///Users/mc/projects/HMLR/prototype-kit-json/app
+
+readFile(__dirname+'/data/OC1_v3.json')
 /* Render home page */
 /* router.get('/', (req, res) => {
   //const formList = fs.readdirSync('./public/results').filter((item) => item.startsWith("form-"));
@@ -35,7 +79,7 @@ router.get('/page/:pageNum', (req, res) => {
 /* Render results pages */
 router.get('/:form/:pageNum', (req, res) => {
 //console.log(req.params.form);
-//console.log(req.session.data.pages);
+  console.log(req.params.pageNum);
 
 
   let form = req.session.data.pages;
@@ -45,19 +89,30 @@ router.get('/:form/:pageNum', (req, res) => {
   const pageNum = Number(req.params.pageNum) - 1;
   const page = form.pages[pageNum];
 
+  res.locals.json = JSON.stringify(req.session.data[req.params.form], null, 2);
   res.locals.form = req.params.form;
   res.locals.pageNum = pageNum;
   res.locals.page = page;
-  res.locals.formName = form.serviceName;
+  res.locals.serviceName = form.serviceName;
 
-  if (page == undefined){
-    res.render('cya.html')
+  if (req.params.pageNum == "json"){
+    res.render('json.html')
+
+  }else if (page == undefined){
+    res.render('page.html')
+
   }else{
     res.render('page.html')
   }
 })
 
-// handlke save DATA
+router.post('/save-form', async (req, res) => {
+  console.log('save form');
+  console.log(req.body);
+  res.render('index.html')
+});
+
+// handle save DATA
 router.post('/saveData', async (req, res) => {
   console.log('got data');
   let newContent = req.body;

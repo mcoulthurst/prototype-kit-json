@@ -1,0 +1,40 @@
+
+
+{% extends "layouts/main_rebrand.html" %}
+{% import "answer-types.njk" as answerType %}
+
+{% set serviceName= "Register your contractual control" %}
+
+{% set pageName="Check your answers" %}
+
+{% block beforeContent %}
+{% include "includes/phase-banner.html" %}
+{% include "includes/language-switcher.html" %}
+{% endblock %}
+
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-!-padding-bottom-9">
+
+          <h1 class="govuk-heading-l">
+            JSON goes here
+          </h1>
+          <p class="govuk-body">Copy goes here.</p>
+
+
+    <textarea bind:this={json}
+      class="govuk-textarea" id="more-detail" name="moreDetail" rows="20" aria-describedby="more-detail-hint">{{json}}</textarea>
+
+
+      
+    </div>
+    </div>
+
+
+  
+
+  </div>
+
+
+{% endblock %}
