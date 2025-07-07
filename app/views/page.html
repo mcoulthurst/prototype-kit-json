@@ -16,7 +16,8 @@
 
   const questionNum = {{ pageNum }};
   const form = "{{ form }}";
-  var heading, hint, searchBtn;
+  var heading, hint, searchBtn, editBtn;
+  let isEditMode = {{ data.isEdit }};
 
 
   var ready = (callback) => {
@@ -29,23 +30,66 @@
     /* Do things after DOM has fully loaded */ 
     console.log('All Systems Red');
 
+    editBtn = document.getElementById("editmode");
+    editBtn.addEventListener("click", toggleEdit);
+
     heading = document.getElementsByClassName("govuk-fieldset__heading")[0];
     // catch any text blocks
     if(!heading){
-      heading = document.getElementsByClassName("govuk-label--l")[0]; // govuk-fieldset__heading
+      heading = document.getElementsByClassName("govuk-label--l")[0];
+      console.log(heading);
+      
     }
-    heading.setAttribute("contenteditable", "true");
-    // Sorry! Dirty hack to prevent the editable text focusing on the input field
-    heading.setAttribute("for", "blank");
 
-    hint = document.getElementsByClassName("govuk-hint")[0];
-    hint.setAttribute("contenteditable", "true");
-
+    if(heading){
+      // Sorry! Dirty hack to prevent the editable text focusing on the input field
+      heading.setAttribute("for", "blank");
+    }
+    if(heading){
+      hint = document.getElementsByClassName("govuk-hint")[0];
+    }
     searchBtn = document.getElementById("saveBtn");
     searchBtn.addEventListener("click", saveData);
 
+    displayEdit();
+
   });
   
+
+  toggleEdit = () => {
+    isEditMode =! isEditMode;
+    console.log("toggle", isEditMode);
+    
+
+    fetch("/setEditMode", {
+      method: "POST",
+      body: JSON.stringify({"isEdit":isEditMode}),
+      headers: {
+        "Content-type": "application/json; charset=UTF-8"
+      }
+    })
+    .then( (response) => response.json() )
+    .then((json) => {
+      console.log(json);
+      //remove button focus
+      //searchBtn.blur();
+    });
+
+    displayEdit();
+  }
+
+  displayEdit = () => {
+    if(heading){
+      heading.setAttribute("contenteditable", isEditMode);
+    }
+    if(hint){
+      hint.setAttribute("contenteditable", isEditMode);
+    }
+
+    saveBtn.style.visibility = isEditMode ? "visible" : "hidden";
+    editBtn.innerHTML = isEditMode ? "Edit mode:on" : "Edit mode:off";
+  }
+
 
   saveData = () => {
     console.log('Question number ', questionNum );
@@ -58,7 +102,7 @@
         question_text: heading.innerHTML.trim(),
         hint_text: hint.innerHTML.trim()
       })
-console.log(body);
+      console.log(body);
 
     fetch("/saveData", {
       method: "POST",
@@ -83,6 +127,7 @@ console.log(body);
 
 {% block content %}
   <div class="govuk-grid-row">
+
     <div class="govuk-grid-column-two-thirds govuk-!-padding-bottom-9">
 
         {% if page.answer_type == "date" and page.answer_settings.input_type == "date_of_birth" %}
@@ -142,11 +187,12 @@ console.log(body);
 
 
         <input type="hidden" name="json" value="true">
-        <button id="saveBtn" class="govuk-button govuk-button--warning" data-module="govuk-button">
+        <button id="saveBtn" class="govuk-button govuk-button--warning" data-module="govuk-button"
+        style="visibility: hidden;">
           Save changes {{pageNum}}
         </button>
 
-      <form action="/form-handler" method="post" novalidate>
+      <form action="" method="post" novalidate>
         <input type="hidden" name="answers-checked" value="true">
 
         {{ govukButton({
@@ -155,7 +201,7 @@ console.log(body);
           }) }}
       </form>
 
-      <a href="json"> View json</a>
+      <a class="govuk-link--no-visited-state" href="json"> View json</a> | <a class="govuk-link--no-visited-state" id="editmode" href="#">Edit mode:off</a>
     </div>
     </div>
 

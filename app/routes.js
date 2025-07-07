@@ -16,7 +16,7 @@ function readFile( url ){
             console.log( 'error', err );
         } else {
             console.log('file read');
-            console.log(data);
+            //console.log(data);
             return data;
         }
     });
@@ -94,6 +94,7 @@ router.get('/:form/:pageNum', (req, res) => {
   res.locals.pageNum = pageNum;
   res.locals.page = page;
   res.locals.serviceName = form.serviceName;
+ 
 
   if (req.params.pageNum == "json"){
     res.render('json.html')
@@ -105,6 +106,15 @@ router.get('/:form/:pageNum', (req, res) => {
     res.render('page.html')
   }
 })
+
+router.post('/setEditMode', async (req, res) => {
+  console.log('current EditMode:', req.session.data.isEdit);
+  console.log('set EditMode');
+  console.log(req.body);
+  req.session.data.isEdit = req.body.isEdit;
+  console.log(req.session.data.isEdit);
+  res.json({ message: 'Hello, this is a JSON response!', status: 'success' });
+});
 
 router.post('/save-form', async (req, res) => {
   console.log('save form');
